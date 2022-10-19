@@ -53,7 +53,7 @@ header, footer {
 }
 
 header {
-    background-image: url("farm2.jpg");
+    background-image: url("assets/farm2.jpg");
 }
 
 table, th, td {
@@ -70,7 +70,7 @@ table {
 }
 
 footer {
-    /* background-image: url("farm4.jpg"); */
+    /* background-image: url("assets/farm4.jpg"); */
     height: 400px
 }
 table.footer {
