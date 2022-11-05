@@ -1,0 +1,123 @@
+body {
+    height: 100vh;
+    margin: 0;
+    margin-top: 0;
+}
+
+header, footer, section, #navbar, #topnav, #right, #bottomnav {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+header, footer {
+    height: 9%;
+    width: 100%;
+    background-color: #1a8c1a;
+}
+
+footer {
+    height: 12%;
+}
+
+section {
+    height: 79%;
+    width: 100%;
+    /* background-color: #dbdbdb; */ 
+    background-image: url("assets/farmland.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    height: 40px;
+}
+
+button {
+    height: 40px;
+    width: 110px;
+    background-color: #d2d2d2;
+    border-radius: 10%;
+    color: #363636;
+    font-size: 12pt;
+}
+
+nav {
+    color: #ffffff;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin: 15px;
+}
+
+td, th {
+    padding: 0px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid black;
+}
+
+.container {
+    height: 97%;
+    width: 100%;
+    background-color: #eeeeee;
+    margin: 10px;
+    border-radius: 2%;
+    box-shadow: 4px 3px 8px 1px #969696;
+    opacity: 0.7;
+}
+
+.bottomtab {
+    text-align: center;
+}
+
+div.bottomtab {
+    margin: 10px;
+}
+
+.name {
+    text-align: left;
+}
+
+#receipt, #account {
+    /* position: absolute; */
+    margin: 10px;
+    /* left: 90%; */
+}
+
+#left, #right {
+    width: 50%;
+    align-items: center;
+}
+
+#right {
+    justify-content: right;
+}
+
+#navbar, #logo {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#name {
+    font-size: 24pt;
+    margin: 0;
+}
+#tagline {
+    font-size: 12pt;
+    color: #ee8e39;
+    margin: 0;
+}
+
+#logo {
+    align-items: center;
+    margin: 20px;
+}
+
+
+/* temp  */
+h1, p, h2 { margin: 10px }
