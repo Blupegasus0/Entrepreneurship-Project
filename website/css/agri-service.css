@@ -2,7 +2,10 @@ body {
     height: 100vh;
     margin: 0;
     margin-top: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+h1, p, h2 { margin: 10px }
 
 header, footer, section, #navbar, #topnav, #right, #bottomnav {
     position: relative;
@@ -36,11 +39,13 @@ img {
 
 button {
     height: 40px;
-    width: 110px;
-    background-color: #d2d2d2;
-    border-radius: 10%;
-    color: #363636;
+    width: 150px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #676666;
     font-size: 12pt;
+    border: none;
+    font-weight: bold;
 }
 
 nav {
@@ -58,6 +63,21 @@ td, th {
     padding-top: 15px;
     padding-bottom: 8px;
     border-bottom: 1px solid black;
+}
+
+p {
+    font-weight: bold;
+}
+
+a.bottomtab, #home {
+    text-decoration: none;
+    color: inherit;
+}
+
+button.todo {
+    width: 70px;
+    height: 30px;
+    color: #51a5ff;
 }
 
 .container {
@@ -83,9 +103,7 @@ div.bottomtab {
 }
 
 #receipt, #account {
-    /* position: absolute; */
     margin: 10px;
-    /* left: 90%; */
 }
 
 #left, #right {
@@ -118,6 +136,15 @@ div.bottomtab {
     margin: 20px;
 }
 
+#receipt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-/* temp  */
-h1, p, h2 { margin: 10px }
+#upload {
+    height: 30px;
+    width: auto;
+    margin: 7px;
+}
+

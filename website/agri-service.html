@@ -11,16 +11,18 @@
     <header>
         <nav id="topnav">
             <div id="left" class="header">
-                <div id="logo">
-                    <!-- <img src="assets/logo-min.png" id="logo-img" alt=""> -->
-                    <h1 id="name" class="logo-text">Agri-Service</h1>
-                    <h3 id="tagline" class="logo-text">Farming the Future</h3>
-                </div>
+                <a href="home.html" id="home">
+                    <div id="logo">
+                        <!-- <img src="assets/logo-min.png" id="logo-img" alt=""> -->
+                        <h1 id="name" class="logo-text">Agri-Service</h1>
+                        <h3 id="tagline" class="logo-text">Farming the Future</h3>
+                    </div>
+                </a>
             </div>
 
             <div id="right">
                 <div id="receipt" class="header">
-                    <button id="receipt">New receipt</button>
+                    <button id="receipt">New receipt <img src="assets/upload.png" id="upload" alt=""></button>
                 </div>
                 <div id="account" class="header">
                     <img src="assets/account.png" alt="account icon" height="40px">
@@ -57,12 +59,53 @@
                     <td>test</td>
                     <td>test</td>
                 </tr>
+                <tr>
+                    <td class="name">Mini mart</td>
+                    <td>eggs</td>
+                    <td>10x12</td>
+                    <td>$96.00</td>
+                </tr>                
+                <tr>
+                    <td class="name">Carlton</td>
+                    <td>eggs</td>
+                    <td>17x12</td>
+                    <td>$163.20</td>
+                </tr>                
+                <tr>
+                    <td class="name">Veg Man</td>
+                    <td>sweet potato</td>
+                    <td>test</td>
+                    <td>test</td>
+                </tr>
             </table>
         </div>
         <div id="tasks" class="container">
             <h2>Tasks</h2>
             <table class="tasks">
-
+                <tr>
+                    <th class="name">Name</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                    <th> </th>
+                </tr>
+                <tr>
+                    <td class="name">Begin Potato Harvesting</td>
+                    <td>Today</td>
+                    <td>ToDo</td>
+                    <td><button class="todo">Done</button></td>
+                </tr>
+                <tr>
+                    <td class="name">Egg Collection</td>
+                    <td>Today</td>
+                    <td>In Progress</td>
+                    <td><button class="todo">Done</button></td>
+                </tr>
+                <tr>
+                    <td class="name">Tractor maintenance</td>
+                    <td>Tomorrow</td>
+                    <td>ToDo</td>
+                    <td><button class="todo">Done</button></td>
+                </tr>
             </table>
         </div>
         <div id="inventory" class="container">
@@ -97,6 +140,54 @@
                     <td>Not Harvested</td>
                     <td>0lb</td>
                     <td>N/A</td>
+                </tr>                
+                <tr>
+                    <td class="name">Eggs</td>
+                    <td>Available</td>
+                    <td>218</td>
+                    <td>$9.60/dozen</td>
+                </tr>                
+                <tr>
+                    <td class="name">Sweet potato</td>
+                    <td>Not Harvested</td>
+                    <td>10lb</td>
+                    <td>$1.98/lb</td>
+                </tr>                
+                <tr>
+                    <td class="name">Black Belly Sheep</td>
+                    <td>Available</td>
+                    <td>73</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td class="name">Sugar Cane</td>
+                    <td>Not Harvested</td>
+                    <td>0lb</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td class="name">Eggs</td>
+                    <td>Available</td>
+                    <td>218</td>
+                    <td>$9.60/dozen</td>
+                </tr>                
+                <tr>
+                    <td class="name">Sweet potato</td>
+                    <td>Not Harvested</td>
+                    <td>10lb</td>
+                    <td>$1.98/lb</td>
+                </tr>                
+                <tr>
+                    <td class="name">Black Belly Sheep</td>
+                    <td>Available</td>
+                    <td>73</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td class="name">Sugar Cane</td>
+                    <td>Not Harvested</td>
+                    <td>0lb</td>
+                    <td>N/A</td>
                 </tr>
             </table>
         </div>
@@ -106,24 +197,34 @@
         <nav id="bottomnav">
             <div id="navbar">
                 <div id="tasks" class="bottomtab">
-                    <img src="assets/todo.png" class="bottomtab" alt="">
-                    <p>tasks</p>
+                    <a class="bottomtab" href="">
+                        <img src="assets/todo.png" class="bottomtab" alt="">
+                        <p>Tasks</p>
+                    </a>
                 </div>
                 <div id="inventory" class="bottomtab">
-                    <img src="assets/inventory.png" class="bottomtab" alt="">
-                    <p>inventory</p>
+                    <a class="bottomtab" href="">
+                        <img src="assets/inventory.png" class="bottomtab" alt="">
+                        <p>Inventory</p>
+                    </a>
                 </div>
                 <div id="orders" class="bottomtab">
-                    <img src="assets/order.png" class="bottomtab" alt="">
-                    <p>orders</p>
+                    <a class="bottomtab" href="">
+                        <img src="assets/order.png" class="bottomtab" alt="">
+                        <p>Orders</p>
+                    </a>
                 </div>
                 <div id="finances" class="bottomtab">
-                    <img src="assets/finance.png" class="bottomtab" alt="">
-                    <p>finances</p>
+                    <a class="bottomtab" href="">
+                        <img src="assets/finance.png" class="bottomtab" alt="">
+                        <p>Finances</p>
+                    </a>
                 </div>
                 <div id="contacts" class="bottomtab">
-                    <img src="assets/contacts.png" class="bottomtab" alt="">
-                    <p>contacts</p>
+                    <a class="bottomtab" href="">
+                        <img src="assets/contacts.png" class="bottomtab" alt="">
+                        <p>Contacts</p>
+                    </a>
                 </div>
             </div>
             <div id="settings"></div>
