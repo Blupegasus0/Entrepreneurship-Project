@@ -4,7 +4,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-footer, nav, section.topic, #header {
+footer, nav, section.topic, section.footer, #header {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -49,6 +49,17 @@ section.topic {
     margin-left: 10%;
     margin-right: 10%;
     justify-content: center;
+    align-items: center;
+}
+
+section.footer {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav.footer {
+    height: 100%;
 }
 
 h3 {
@@ -66,8 +77,9 @@ p {
 }
 
 img {
-    width: 20%;
-    height: fit-content;
+    height: 70%;
+    width: fit-content;
+    margin: 20px;
 }
 
 button {
@@ -110,6 +122,18 @@ button {
     color: #ffffff;
 }
 
+#logocontainer {
+    height: 100%;
+}
+
+#footerlogo {
+    height: 150px;
+    width: max-content;
+}
+
+.images {
+    height: 50vh
+}
 
 
 
